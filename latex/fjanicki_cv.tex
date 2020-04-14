@@ -1,0 +1,121 @@
+% https://www.rpi.edu/dept/arc/training/latex/resumes/
+
+\documentclass[margin,line]{res}
+
+\usepackage[utf8x]{inputenc} 
+\usepackage{paralist}
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Frédéric Portaria-Janicki, B. Ing.\vspace*{.1in}}
+
+\begin{resume}
+  \section{\sc Information}
+  \vspace{.05in}
+  \begin{tabular}{@{}p{2in}p{4in}}
+    {\it Mobile:}  (514) 969-9816      \\
+    {\it Courriel:} fjanicki@gmail.com \\
+  \end{tabular}
+
+
+  \section{\sc Formation Académique}
+   {\bf Baccalauréat en Génie Électrique et Informatique} \hfill {\bf 2015}\\
+  École de technologie supérieure (ÉTS)
+  Université du Québec, Montréal
+
+  {\bf Diplôme d'études collégiales en sciences de la nature} \hfill {\bf 2010}\\
+  Collège Jean-de-Brébeuf
+
+  \section{\sc Expérience professionnelle}
+   {\bf PVP Techonologies} \hfill {\bf Depuis 2017}\\
+  Développeur R\&D - Mobile et systèmes embarqués\\
+  \begin{itemize}
+    \item Développement d'une solution de télématique dans le domaine de la mobilité partagée. La solution est développée en microservices pour un système embarqué Linux sous la plateforme Legato, en C++14. Le produit final est installé dans des voitures.
+    \item Désign et développement d'une solution sans-fil BLE afin de commander un véhicule hors-ligne sur la plateforme Openfleet.
+    \item Développement mobile Android moderne d'applications mobiles natives. Développement de la plateforme mobile Openfleet. Intégration d'une {\emph Clean Architecture} dans l'application mobile afin de faire une application en marque blanche.
+    \item Organisation de formations technique en C++, Java et Kotlin à l'interne.
+  \end{itemize}
+
+  {\emph Technologies utilisées:} C++14, MQTT, Python, Kotlin, Java, TDD, Dagger, RxJava, RxCpp, Legato, Embedded Linux (Yocto), Boost C++, Docker
+
+    {\bf Samsao} \hfill {\bf 2016}\\
+  Développeur Mobile Android - Genie Conseil\\\\
+  Développement mobile Android moderne d'applications mobiles natives. Developpement d'un systeme de flashing de firmware sans-fil via \emph{Bluetooth Low Energy} pour l'industrie automobile.
+    {\emph Exemples de clients:} Directed Technologies.
+
+    {\emph Technologies utilisées:} Java, Kotlin, TDD, Android Studio, Dagger, RxJava.
+
+    {\bf nventive} \hfill {\bf 2015}\\
+  Développeur Mobile - Ingénierie de développement logiciel\\\\
+  Développement multiplateformes (Android/iOS/Windows Phone) d'applications mobiles pour clients sous Xamarin.
+    {\emph Exemples de clients:} Rdio, Twitter.
+
+    {\emph Technologies utilisées:} C\#, Xamarin, .NET 5, Android SDK, iOS, Git, Visual Studio Online.
+
+    {\bf Mobeewave} \hfill {\bf 2015}\\
+  Stagiaire - Ingénierie de développement logiciel\\\\
+  Participation au développement d'une application de type serveur back-end en ajoutant de nouvelles fonctionnalitées et en participant au processus de design avec une méthodologie {\emph Agile}.
+  {\emph Accomplissements:} Design et implémentation d'un système de cache partagée.
+
+  {\emph Technologies utilisées:} C\#, .NET 4.5, Amazon AWS, Redis, WebApi, Git, TFS, Visual Studio Online.
+
+    {\bf iBwave} \hfill {\bf 2014}\\
+  Stagiaire - Ingénierie de développement logiciel\\\\
+  Participation au développement de l'application {\emph iBwave design} en ajoutant de nouvelles fonctionnalitées et en participant au processus de design.
+
+    {\emph Technologies utilisées:} C\#, XML, .NET 4.5
+
+  %%%%%%%%%%%% AUTRES EXP %%%%%%%%%%%%%%
+
+  \section{\sc Expérience\\ Divers}
+   {\bf Projets}\hfill
+  \begin{itemize}
+    \item Design et construction d'un dôme géodesique dans le contexte d'un projet multidisplinaire artistique pour le festival OpenMind 2015. Projet récipiendaire d'une bourse pour son design écologique.
+    \item Design et fabrication d'un mur de 500 LED avec contrôle interactif numérique. Présenté lors d'une soirée de Noël chez nventive ainsi qu'une soirée résautage organisée par Facebook.
+          \\\\{\emph Technologies utilisées:} TouchDesigner, ARM Cortex-M4, C, Communication série, Découpage laser, Design electrique.
+    \item Développement d'une plateforme me permettant de faire de la génération d'images 2D et 3D en temps-réel pour concerts de musique. (VJing).
+  \end{itemize}
+  {\bf Implication} \hfill
+  \begin{itemize}
+    \item Co-fondateur et directeur technique du collectif d'artistes {\emph Eden Creative}.
+    \item Membre du club de développement de jeux vidéo {\emph Conjure}.
+    \item Développement d'un prototype de jeu multijoueur dans le cadre du concours Ubisoft Académia 2014. Prototype gagnant de 2 des 10 prix disponibles.
+    \item Participation à la compétition de sécurité informatique NorthSec 2014.
+    \item Bénévole lors des jeux de Génie 2012.
+  \end{itemize}
+  %%%%%%%%%%% Mentions%%%%%%%%%%%%%%%%%
+
+  %%%%%%%%%%% LOISIRS %%%%%%%%%%%%%%%%%
+
+  \section{\sc Loisirs}
+  Escalade - Yoga - VJing -  Informatique - Art visuel procédural - Photographie - Vélo
+
+  %%%%%%%%%%%% FIN %%%%%%%%%%%%%%%%
+
+\end{resume}
+\end{document}
+
+
+
+

@@ -1,2 +1,8 @@
 _site/
 .sass-cache/
+latex/**.aux
+latex/**.fdb_latexmk
+latex/**.fls
+latex/**.log
+latex/**.synctex.gz
+.jekyll-cache/
